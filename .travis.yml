@@ -1,0 +1,22 @@
+language: php
+
+php:
+  - 7.0
+  - 7.1
+
+env:
+  - SYMFONY_VERSION=3.2.*
+  - SYMFONY_VERSION=3.3.*
+  - SYMFONY_VERSION=3.4.x-dev
+  - SYMFONY_VERSION=dev-master
+
+before_script:
+  - composer require symfony/symfony:${SYMFONY_VERSION}
+
+script:
+  - ./vendor/bin/phpunit --coverage-text
+
+matrix:
+  allow_failures:
+    - env: SYMFONY_VERSION=3.4.x-dev
+    - env: SYMFONY_VERSION=dev-master
