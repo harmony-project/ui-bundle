@@ -1,0 +1,74 @@
+@site         : 'default';
+@theme        : 'default';
+
+@siteFolder   : 'site';
+@themesFolder : 'themes';
+
+/* Default site.variables */
+@import "@{themesFolder}/default/globals/site.variables";
+
+/* Packaged site.variables */
+@import "@{themesFolder}/@{site}/globals/site.variables";
+
+/* Component's site.variables */
+@import (optional) "@{themesFolder}/@{theme}/globals/site.variables";
+
+/* Site theme site.variables */
+@import (optional) "@{siteFolder}/globals/site.variables";
+
+@media only screen and (max-width: @largestMobileScreen) {
+  .for[class*="tablet only"],
+  .for[class*="tablet or bigger"],
+  .for[class*="computer only"],
+  .for[class*="computer or bigger"],
+  .for[class*="large screen only"],
+  .for[class*="large screen or bigger"],
+  .for[class*="widescreen only"] {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: @tabletBreakpoint) and (max-width: @largestTabletScreen) {
+  .for[class*="mobile only"],
+  .for[class*="computer only"],
+  .for[class*="computer or bigger"],
+  .for[class*="large screen only"],
+  .for[class*="large screen or bigger"],
+  .for[class*="widescreen only"] {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: @computerBreakpoint) and (max-width: @largestSmallMonitor) {
+  .for[class*="mobile only"],
+  .for[class*="tablet only"],
+  .for[class*="tablet or smaller"],
+  .for[class*="large screen only"],
+  .for[class*="large screen or bigger"],
+  .for[class*="widescreen only"] {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: @largeMonitorBreakpoint) and (max-width: @largestLargeMonitor) {
+  .for[class*="mobile only"],
+  .for[class*="tablet only"],
+  .for[class*="tablet or smaller"],
+  .for[class*="computer only"],
+  .for[class*="computer or smaller"],
+  .for[class*="widescreen only"] {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: @widescreenMonitorBreakpoint) {
+  .for[class*="mobile only"],
+  .for[class*="tablet only"],
+  .for[class*="tablet or smaller"],
+  .for[class*="computer only"],
+  .for[class*="computer or smaller"],
+  .for[class*="large screen only"],
+  .for[class*="large screen or smaller"] {
+    display: none !important;
+  }
+}
