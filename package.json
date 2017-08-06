@@ -1,0 +1,29 @@
+{
+  "name": "harmony-ui-bundle",
+  "version": "1.0.0",
+  "description": "Integrates Semantic UI 2 into the Symfony framework",
+  "dependencies": {
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "semantic-ui-less": "^2.2.11",
+    "semantic-ui-less-loader": "^0.2.0",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harmony-project/ui-bundle.git"
+  },
+  "author": "Tim Goudriaan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harmony-project/ui-bundle/issues"
+  },
+  "homepage": "https://github.com/harmony-project/ui-bundle"
+}
