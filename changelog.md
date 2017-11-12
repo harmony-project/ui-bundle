@@ -1,6 +1,13 @@
 Changelog
 ===================
  
+1.1.1 (2017-11-12)
+------------------
+
+* Refactor LESS directory structure
+* Add custom styling for anchors inside header elements
+* Various improvements to the form template
+ 
 1.1.0 (2017-08-06)
 ------------------
 
