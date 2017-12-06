@@ -1,6 +1,6 @@
 {
   "name": "harmony-project/ui-bundle",
-  "type": "library",
+  "type": "symfony-bundle",
   "description": "Integrates Semantic UI 2 into the Symfony framework",
   "keywords": ["symfony", "semantic-ui"],
   "homepage": "http://harmony-project.io",
