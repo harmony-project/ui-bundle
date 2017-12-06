@@ -1,6 +1,6 @@
 {
   "name": "harmony-ui-bundle",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Integrates Semantic UI 2 into the Symfony framework",
   "dependencies": {
     "css-loader": "^0.28.4",
