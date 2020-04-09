@@ -1,6 +1,8 @@
 HarmonyUiBundle
 ===============
 
+**This bundle has been moved to a new location ([codedmonkey/semantic-ui-bundle](https://github.com/codedmonkey/semantic-ui-bundle)) and will no longer receive updates. For support for Symfony 5 and/or Twig 3, use the new bundle.**
+
 The HarmonyUiBundle makes it easy to integrate the [Semantic UI 2][semantic-ui] CSS framework in a [Symfony][symfony] application.
 
 Requirements:

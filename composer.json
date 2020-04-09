@@ -1,4 +1,5 @@
 {
+  "abandoned": true,
   "name": "harmony-project/ui-bundle",
   "type": "symfony-bundle",
   "description": "Integrates Semantic UI 2 into the Symfony framework",
