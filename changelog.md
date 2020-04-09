@@ -1,6 +1,12 @@
 Changelog
 ===================
- 
+
+1.1.3 (2020-04-09)
+------------------
+
+* Restrict Twig support to v1 and v2
+* Added abandoned notice
+
 1.1.2 (2017-12-06)
 ------------------
 
